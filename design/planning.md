@@ -32,4 +32,12 @@
 - A persistent control area provides status, lecture material reference, and access to help.
 
 ### 4. UI Sketches
-- See `./sketches/student-lecture-view.png`
+#### Lecture Mode
+[Student Lecture View](./sketches/student-lecture-view.png)
+
+<img src="./sketches/student-lecture-view.png" alt="UI sketch of student's view during lecture mode" width="500">
+
+#### Challenge Mode
+[Student Challenge View](./sketches/student-challenge-view.png)
+
+<img src="./sketches/student-challenge-view.png" alt="UI sketch of student's view during challenge mode" width="500">
