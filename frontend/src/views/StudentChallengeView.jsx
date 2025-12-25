@@ -24,7 +24,11 @@ export default function StudentChallengeView({ onSwitch }) {
       <footer className="control-bar">
         <button>Ask For Help</button>
         <span>&lt; 2 / 3 &gt;</span>
-        <button onClick={onSwitch}>Back to Lecture</button>
+        <div className="test-status">
+          <div className="test-summary">Passing 2 of 4 tests</div>
+          <button className="results-link">See Results</button>
+        </div>
+        {/* <button onClick={onSwitch}>Back to Lecture</button> */}
       </footer>
     </main>
   );
