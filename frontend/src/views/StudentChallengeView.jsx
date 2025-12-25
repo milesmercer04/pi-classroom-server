@@ -9,7 +9,13 @@ export default function StudentChallengeView({ onSwitch }) {
 
       <section className="challenge-body">
         <div className="code-input">Code Input</div>
-        <div className="code-output">Code Output</div>
+        <div className="code-output-pane">
+          <div className="code-output-header">
+            <button className="run-button">Run (ctrl + enter)</button>
+          </div>
+
+          <div className="code-output">Code Output</div>
+        </div>
       </section>
 
       <footer className="control-bar">
