@@ -3,19 +3,22 @@ export default function StudentChallengeView({ onSwitch }) {
   return (
     <main className="challenge-view">
       <header className="challenge-header">
-        <h2>Challenge Title</h2>
-        <p>Challenge description and instructions go here.</p>
+        <div className="challenge-info">
+          <h2>Challenge Title</h2>
+          <p>Challenge description and instructions go here.</p>
+        </div>
+        
+        <div className="challenge-tools">
+          <div className="slide-preview">
+            Slides
+          </div>
+          <button className="run-button">Run (ctrl + enter)</button>
+        </div>
       </header>
 
       <section className="challenge-body">
-        <div className="code-input">Code Input</div>
-        <div className="code-output-pane">
-          <div className="code-output-header">
-            <button className="run-button">Run (ctrl + enter)</button>
-          </div>
-
-          <div className="code-output">Code Output</div>
-        </div>
+        <div className="pane code-input">Code Input</div>
+        <div className="pane code-output">Code Output</div>
       </section>
 
       <footer className="control-bar">

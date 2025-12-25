@@ -1,4 +1,6 @@
 
+/* Global */
+
 body {
   margin: 0;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -10,51 +12,90 @@ main {
   flex-direction: column;
 }
 
+/* Shared Layout */
+
 .lecture-content,
 .challenge-body {
   flex: 1;
   display: flex;
   padding: 1rem;
-}
-
-.challenge-body {
   gap: 1rem;
 }
 
-.slide-placeholder,
-.code-input {
+/* Panes (DRY core concept) */
+
+.pane {
   border: 2px dashed #aaa;
   flex: 1;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* Lecture View */
+
+/* 
+Semantic alias for pane:
+
+.slide-placeholder {
+  
+}
+*/
+
+/* Challenge View */
+
+/*
+Semantic aliases for pane:
+
+.code-input {
+
 }
 
 .code-output {
-  flex: 1;
-  padding: 1rem;
+
+}
+*/
+
+/* Challenge Header */
+
+.challenge-header {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+  gap: 1rem
 }
 
-.code-output-pane {
-  border: 2px dashed #aaa;
-  flex: 1;
+.challenge-info {
+  max-width: 70%;
+}
+
+.challenge-tools {
   display: flex;
   flex-direction: column;
+  align-items: stretch;
+  gap: 0.5rem;
 }
 
-.code-output-header {
+.slide-preview {
+  width: 140px;
+  height: 80px;
+  border: 2px dashed #aaa;
   display: flex;
-  justify-content: flex-end;
-  padding: 0.5rem;
-  border-bottom: 2px dashed #aaa;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  cursor: pointer;
 }
 
 .run-button {
+  width: 144px;
   padding: 0.4rem 0.75rem;
   cursor: pointer;
 }
+
+/* Control Bar */
 
 .control-bar {
   display: flex;

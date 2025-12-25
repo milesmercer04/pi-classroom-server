@@ -3,7 +3,7 @@ export default function StudentLectureView({ onSwitch }) {
   return (
     <main className="lecture-view">
       <section className="lecture-content">
-        <div className="slide-placeholder">Lecture Content</div>
+        <div className="pane slide-placeholder">Lecture Content</div>
       </section>
 
       <footer className="control-bar">
