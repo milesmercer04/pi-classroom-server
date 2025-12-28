@@ -1,5 +1,5 @@
 
-export default function StudentChallengeView({ onSwitch }) {
+export default function StudentChallengeView() {
   return (
     <main className="challenge-view">
       <header className="challenge-header">
@@ -28,7 +28,6 @@ export default function StudentChallengeView({ onSwitch }) {
           <div className="test-summary">Passing 2 of 4 tests</div>
           <button className="results-link">See Results</button>
         </div>
-        {/* <button onClick={onSwitch}>Back to Lecture</button> */}
       </footer>
     </main>
   );
