@@ -2,9 +2,10 @@
 
 ***Note:*** This document represents current thinking and is expected to change.
 
-## Student Interface - Draft 0
+## Student Interface
 
-### 1. User Stories (student perspective)
+### 1. User Stories
+
 #### Lecture Mode
 - As a student, I want my screen to mirror the screen to mirror the teacher's so I can get a close look at the materials.
 - As a student, I want to navigate backward through slides so I can review if I fall behind.
@@ -32,6 +33,7 @@
 - A persistent control area provides status, lecture material reference, and access to help.
 
 ### 4. UI Sketches
+
 #### Lecture Mode
 [Student Lecture View](./sketches/student-lecture-view.png)
 
@@ -41,3 +43,21 @@
 [Student Challenge View](./sketches/student-challenge-view.png)
 
 <img src="./sketches/student-challenge-view.png" alt="UI sketch of student's view during challenge mode" width="500">
+
+## Teacher Interface
+
+### 1. Role Definition
+
+Teachers use the system to design and deliver interacive lessons that interleave lecture content with student challenges. During live instruction, the teacher's primary focus is on presenting material clearly and responding to student needs without navigating complex interfaces or managing multiple tools. The system should support flexible lesson sequencing while minimizing cognitive load during lecture delivery.
+
+### 2. User Stories
+
+#### Lesson Authoring & Setup
+
+- As a teacher, I want to upload and organize lecture materials (slides, PDFs, videos, images, screen streams, etc.) so that I can reuse existing teaching resources.
+- As a teacher, I want to define an ordered sequence of lecture segments and challenges so that I can control the pacing of the lesson.
+- As a teacher, I want to interleave lecture content and challenges so that students can practice concepts immediately after instruction.
+- As a teacher, I want to specify which lecture materials remain accessible to students during later parts of the lesson so that they can review earlier content if needed.
+- As a teacher, I want to add presentation notes for myself that are visible only to me during lecture delivery.
+
+
