@@ -25,8 +25,9 @@ export default function StudentChallengeView() {
         <button>Ask For Help</button>
         <span>&lt; 2 / 3 &gt;</span>
         <div className="test-status">
-          <div className="test-summary">Passing 2 of 4 tests</div>
-          <button className="results-link">See Results</button>
+          <button className="test-status-button">
+            Passing 2 of 4 tests
+          </button>
         </div>
       </footer>
     </main>
