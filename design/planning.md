@@ -22,12 +22,12 @@
 
 ### 2. Functional Requirements
 
-- The system must display the current slide synchronized with the teacher.
-- The system must allow backward navigation through the slides.
-- The system must allow the student to rejoin the live slide.
-- The system must present challenge instructions and a coding environment.
-- The system must allow access to lecture materials during challenges.
-- The system must allow the student to request help from the teacher during a challenge.
+- The system shall display the current slide synchronized with the teacher.
+- The system shall allow backward navigation through the slides.
+- The system shall allow the student to rejoin the live slide.
+- The system shall present challenge instructions and a coding environment.
+- The system shall allow access to lecture materials during challenges.
+- The system shall allow the student to request help from the teacher during a challenge.
 
 ### 3. UI Concepts
 
