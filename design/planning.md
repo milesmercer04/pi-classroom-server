@@ -60,4 +60,22 @@ Teachers use the system to design and deliver interacive lessons that interleave
 - As a teacher, I want to specify which lecture materials remain accessible to students during later parts of the lesson so that they can review earlier content if needed.
 - As a teacher, I want to add presentation notes for myself that are visible only to me during lecture delivery.
 
+#### Lecture Delivery Mode
 
+- As a teacher, I want a simple, presentation-focused interface while lecturing so that I am not distracted by administrative controls.
+- As a teacher, I want to see student help requests in a side pane so that I can respond without interrupting the flow of the lecture.
+- As a teacher, I want to plan moments in the lesson where students can ask questions so that I can encourage engagement.
+- As a teacher, I want to review and selectively display student questions so that I can screen for appropriateness before saring them with the class.
+- As a teacher, I want to optionally display student questions anonymously to the class while addressing them.
+
+#### Challenge Facilitation Mode
+
+- As a teacher, I want to know which students are struggling with specific challenges so that I can provide targeted help.
+- As a teacher, I want to view a student's work (code, output, and test results) when they ask for help so that I can quickly understand their issue.
+- As a teacher, I want to see aggregate progress information for challenges so that I can judge whether the class is ready to move on.
+- As a teacher, I want to monitor time spent on challenges so that I can adjust pacing or provide hints to the whole class when needed.
+
+#### Lesson Monitoring & Feedback
+- As a teacher, I want to see how many students have completed each challenge so that I can assess overall progress.
+- As a teacher, I want to see average completion times for challenges so that I can identify unexpectedly difficult material.
+- As a teacher, I want to be aware of remaining time for timed challenges so that I can manage the lesson schedule effectively.
