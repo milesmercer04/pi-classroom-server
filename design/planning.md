@@ -7,11 +7,13 @@
 ### 1. User Stories
 
 #### Lecture Mode
+
 - As a student, I want my screen to mirror the screen to mirror the teacher's so I can get a close look at the materials.
 - As a student, I want to navigate backward through slides so I can review if I fall behind.
 - As a student, I want to return to the current slide after review so I can rejoin the lecture.
 
 #### Challenge Mode
+
 - As a student, I want to see instructions while I work on a challenge.
 - As a student, I want to retain access to lecture materials during challenges for any needed reminders.
 - As a student, I want to write code and see results side-by-side.
@@ -19,6 +21,7 @@
 - As a student, I want to request help so the teacher knows I'm stuck and where.
 
 ### 2. Functional Requirements
+
 - The system must display the current slide synchronized with the teacher.
 - The system must allow backward navigation through the slides.
 - The system must allow the student to rejoin the live slide.
@@ -27,6 +30,7 @@
 - The system must allow the student to request help from the teacher during a challenge.
 
 ### 3. UI Concepts
+
 - The student interface operates in two modes: lecture and challenge.
 - Lecture mode prioritizes slide visibility with minimal controls and distractions.
 - Challenge mode presents code instructions, code input, and output simultaneously.
@@ -76,6 +80,7 @@ Teachers use the system to design and deliver interacive lessons that interleave
 - As a teacher, I want to monitor time spent on challenges so that I can adjust pacing or provide hints to the whole class when needed.
 
 #### Lesson Monitoring & Feedback
+
 - As a teacher, I want to see how many students have completed each challenge so that I can assess overall progress.
 - As a teacher, I want to see average completion times for challenges so that I can identify unexpectedly difficult material.
 - As a teacher, I want to be aware of remaining time for timed challenges so that I can manage the lesson schedule effectively.
@@ -109,3 +114,39 @@ Teachers use the system to design and deliver interacive lessons that interleave
 - The system shall update aggregate progress statistics in near real-time during challenges.
 - The system shall allow the teacher to determine when to complete a challenge segment and whether to disrupt student progress for further lecturing.
 - The system shall preserve student access to previously released lecture materials when configured by the teacher.
+
+### 4. UI Concepts
+
+#### Teacher Dashboard (Pre-Lesson)
+
+- Lesson list
+- Lesson creation/edit entry points
+- Status indicators (draft, ready, previously run)
+
+#### Lesson Editor
+
+- Material upload panel
+- Lesson timeline/sequence view
+    - Lecture segments
+    - Challenge segments
+- Access control indicators for student-visible materials
+- Teacher-only notes editor
+- Challenge test editor
+
+#### Lecture Delivery View
+
+- Main pane: current lecture material
+- Teacher notes (private)
+- Side pane:
+    - Help requests
+    - Question submissions (screened)
+- Minimal controls for advancing lesson state
+
+#### Challenge Facilitation View
+
+- Aggregate progress summary (counts, averages, timers)
+- Help request queue
+- Detailed student view:
+    - Challenge context
+    - Code editor (read-only)
+    - Output and test results
