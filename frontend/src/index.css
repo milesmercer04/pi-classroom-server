@@ -1,5 +1,21 @@
+/**
+ * index.css
+ * 
+ * Global styles and layout primitives for the student-facing UI.
+ * 
+ * This file defines shared structural concepts (panes, headers, control bars)
+ * and view-level laout rules for both lecture and challenge nodes.
+ * 
+ * Styling is intentionally minimal and explicit to support:
+ * - Rapid iteration during prototyping
+ * - Clear visual symmetry for students
+ * - Future theming (e.g., dark mode)
+ * 
+ * Component-specific styling should live alongside components once behavior
+ * becomes more complex.
+ */
 
-/* Global */
+/* ---------- Global ---------- */
 
 #root {
   max-width: 1280px;
@@ -19,7 +35,7 @@ main {
   flex-direction: column;
 }
 
-/* Shared Layout */
+/* ---------- Shared Layout ---------- */
 
 .lecture-content,
 .challenge-body {
@@ -29,7 +45,7 @@ main {
   gap: 1rem;
 }
 
-/* Panes (DRY core concept) */
+/* ---------- Panes (DRY core concept) ---------- */
 
 .pane {
   border: 2px dashed #aaa;
@@ -39,7 +55,7 @@ main {
   justify-content: center;
 }
 
-/* Lecture View */
+/* ---------- Lecture View ---------- */
 
 /* 
 Semantic alias for pane:
@@ -49,7 +65,7 @@ Semantic alias for pane:
 }
 */
 
-/* Challenge View */
+/* ---------- Challenge View ---------- */
 
 /*
 Semantic aliases for pane:
@@ -63,7 +79,7 @@ Semantic aliases for pane:
 }
 */
 
-/* Challenge Header */
+/* ---------- Challenge Header ---------- */
 
 .challenge-header {
   display: flex;
@@ -102,7 +118,7 @@ Semantic aliases for pane:
   cursor: pointer;
 }
 
-/* Control Bar */
+/* ---------- Control Bar ---------- */
 
 .control-bar {
   display: flex;
