@@ -79,3 +79,33 @@ Teachers use the system to design and deliver interacive lessons that interleave
 - As a teacher, I want to see how many students have completed each challenge so that I can assess overall progress.
 - As a teacher, I want to see average completion times for challenges so that I can identify unexpectedly difficult material.
 - As a teacher, I want to be aware of remaining time for timed challenges so that I can manage the lesson schedule effectively.
+
+### 3. Functional Requirements
+
+#### Lesson Structure & Content
+
+- The system shall allow teachers to upload multiple types of lecture materials, including documents, media, and live screen streams.
+- The system shall allow teachers to define an explicit sequene of lecture segments and challenge segments.
+- The system shall allow teachers to control which lecture materials remain accessible to students at each point in the lesson.
+- The system shall support teacher-authored presentation notes that are not visible to students.
+
+#### Lecture Mode Behavior
+
+- The system shall present lecture materials in a distraction-minimized interface during lecture delivery.
+- The system shall display student help requests in a secondary pane without obscuring lecture content.
+- The system shall support teacher-defined question periods during which students may submit questions.
+- The system shall allow teachers to approve or reject student questions before displaying them to the class.
+- The system shall support anonymous display of student questions when enabled by the teacher.
+
+#### Challenge Mode Behavior
+
+- The system shall notify the teacher when a student requests help during a challenge.
+- The system shall display the student's name, current challenge, submitted code, latest output, and test results when viewing a help request.
+- The system shall provide aggregate statistics for each challenge, including completion counts and average time spent.
+- The system shall display remaining time for challenges with time limits.
+
+#### Monitoring & Pacing Support
+
+- The system shall update aggregate progress statistics in near real-time during challenges.
+- The system shall allow the teacher to determine when to complete a challenge segment and whether to disrupt student progress for further lecturing.
+- The system shall preserve student access to previously released lecture materials when configured by the teacher.
